@@ -14,6 +14,10 @@ class ViewController: UIViewController {
     let amirhosseinButton = UIButton(type: .system)
     let alirezaButton = UIButton(type: .system)
     //MARK:- Actions
+    @objc func didTapOnAlirezaButton(sender: UIButton) {
+        let vc = AlirezaViewController()
+        navigationController?.pushViewController(vc, animated: true)
+    }
     //MARK:- View Controller Life Cycle
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -21,6 +25,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         configureView()
+        alirezaButton.addTarget(self, action: #selector(didTapOnAlirezaButton(sender:)), for: .touchUpInside)
     }
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)

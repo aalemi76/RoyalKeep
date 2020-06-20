@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD0A523A249B53CF000C51EE /* AlirezaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0A5239249B53CF000C51EE /* AlirezaViewController.swift */; };
 		AD1B5A45249A3064006F3745 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1B5A44249A3064006F3745 /* AppDelegate.swift */; };
 		AD1B5A47249A3064006F3745 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1B5A46249A3064006F3745 /* SceneDelegate.swift */; };
 		AD1B5A49249A3064006F3745 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1B5A48249A3064006F3745 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD0A5239249B53CF000C51EE /* AlirezaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlirezaViewController.swift; sourceTree = "<group>"; };
 		AD1B5A41249A3064006F3745 /* RoyalKeep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoyalKeep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD1B5A44249A3064006F3745 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD1B5A46249A3064006F3745 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				AD1B5A44249A3064006F3745 /* AppDelegate.swift */,
 				AD1B5A46249A3064006F3745 /* SceneDelegate.swift */,
 				AD1B5A48249A3064006F3745 /* ViewController.swift */,
+				AD0A5239249B53CF000C51EE /* AlirezaViewController.swift */,
 				AD1B5A4A249A3064006F3745 /* Main.storyboard */,
 				AD1B5A4D249A3065006F3745 /* Assets.xcassets */,
 				AD1B5A4F249A3065006F3745 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD1B5A49249A3064006F3745 /* ViewController.swift in Sources */,
+				AD0A523A249B53CF000C51EE /* AlirezaViewController.swift in Sources */,
 				AD1B5A45249A3064006F3745 /* AppDelegate.swift in Sources */,
 				AD1B5A47249A3064006F3745 /* SceneDelegate.swift in Sources */,
 			);
